@@ -1,0 +1,23 @@
+.places {
+    margin: 0 auto;
+    padding: 0 148px 92px;
+    max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        padding: 0 48px 80px;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    .lead {
+        padding: 0 0 88px;
+    }
+} */
+
+/* @media screen and (min-width: 320px) and (max-width: 767px) {
+    .lead {
+        padding: 0 0 64px;
+    }
+} */
