@@ -7,12 +7,12 @@
 }
 
 .header__lang_links li:nth-child(1) {
-    margin-right: 18px;
-    text-decoration-line: underline;
+    margin-right: 18px; 
  }
+
 
  @media screen and (max-width: 425px) {
     .header__lang-links {
         margin-top: 14px;
     }
-}
+    }
