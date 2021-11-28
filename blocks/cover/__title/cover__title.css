@@ -1,18 +1,18 @@
-.place__title {
-    margin: 0;
+.cover__title {
+    margin: 0 0 32px;
     padding: 0;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    text-align: center;
     color: #FFFFFF;
-    grid-area: title;
+    max-width: 560px;
 }
 
-@media screen and (max-width: 629px) {
-    .place__title {
+@media screen  and (max-width: 629px) {
+    .cover__title {
         font-size: 32px;
         line-height: 35px;
-        padding: 0 16px;
-    }    
+    }
 }

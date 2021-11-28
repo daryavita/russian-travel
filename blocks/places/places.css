@@ -6,18 +6,18 @@
 
 @media screen and (max-width: 1024px) {
     .places {
-        padding: 0 48px 80px;
+        padding: 0 48px 92px;
     }
 }
 
-/* @media screen and (max-width: 768px) {
-    .lead {
-        padding: 0 0 88px;
+@media screen and (max-width: 768px) {
+    .places {
+        padding: 0 24px 80px;
     }
-} */
+}
 
-/* @media screen and (min-width: 320px) and (max-width: 767px) {
-    .lead {
-        padding: 0 0 64px;
+@media screen  and (max-width: 629px) {
+    .places {
+        padding: 0 0 66px;
     }
-} */
+}

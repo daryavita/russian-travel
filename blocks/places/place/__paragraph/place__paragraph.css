@@ -7,9 +7,16 @@
     line-height: 163%;
     color: #FFFFFF;
     margin-bottom: 26px;
-    max-width: 484px;
+    grid-area: paragraph;
 }
 
 .place__paragraph:last-child {
-    margin-bottom:0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 629px) {
+    .place__paragraph {
+        font-size: 16px;
+        padding: 0 16px;
+    }
 }
