@@ -5,3 +5,9 @@
     justify-self: center;
     z-index: 1;
 }
+
+@media screen and (max-width: 425px) {
+    .cover__text {
+        max-width: 288px;
+    }
+}
