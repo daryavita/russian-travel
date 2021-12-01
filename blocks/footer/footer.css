@@ -6,6 +6,13 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        padding: 0 24px 24px;
+    }
+}
+
 @media screen and (max-width: 629px) {
     .footer {
         flex-direction: column;
